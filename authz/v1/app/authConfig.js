@@ -7,7 +7,7 @@ const msalConfig = {
     auth: {
         clientId: "ec12d5e1-4d15-4d04-988c-dcd6abf08dbf", // This is the ONLY mandatory field that you need to supply.
         authority: "https://login.microsoftonline.com/common", // Defaults to "https://login.microsoftonline.com/common"
-        redirectUri: "https://ajithth.github.io/az-spa/signin/App/index.html", // You must register this URI on Azure Portal/App Registration. Defaults to window.location.href
+        redirectUri: "https://ajithth.github.io/az-spa/authz/v1/app/index.html", // You must register this URI on Azure Portal/App Registration. Defaults to window.location.href
     },
     cache: {
         cacheLocation: "localStorage", // This configures where your cache will be stored
