@@ -6,7 +6,7 @@
 
 const msalConfig = {
   auth: {
-    clientId: "7abf9160-081d-4ad6-9fc2-f813a49d3db2", //"ca4a6fb9-1d72-4f12-81dc-edb46c583baa", // This is the ONLY mandatory field that you need to supply.
+    clientId: "ca4a6fb9-1d72-4f12-81dc-edb46c583baa", // This is the ONLY mandatory field that you need to supply.
     authority: "https://login.microsoftonline.com/1bafed45-9e5d-44af-9361-02b103824ff7", // Defaults to "https://login.microsoftonline.com/common"
     redirectUri: "https://ajithth.github.io/az-spa/signin/App/index.html", // You must register this URI on Azure Portal/App Registration. Defaults to window.location.href
     postLogoutRedirectUri: "https://ajithth.github.io/az-spa/signin/App/index.html", // Simply remove this line if you would like navigate to index page after logout.
